@@ -1,5 +1,15 @@
-# .github
+# NBility-business-capabilities-XML
 
-Nbility community wide files.
+This repo contains NBility-business-capabilities model in XML format. 
 
-The /profile/README.md will appear on the organization's profile.
+# Installation 
+The use the NBility-business-capabilities you need [Archi](https://www.archimatetool.com/) or other archimate tool. 
+
+## License
+This project is licensed under the ???? - see [LICENSE](LICENSE) for details.
+
+## Contributing
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for submitting pull requests to us.
+
+## Contact
+Please read [SUPPORT.md](SUPPORT.md) for how to connect and get into contact with the NBility-business-capabilities model project
