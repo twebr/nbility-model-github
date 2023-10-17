@@ -12,14 +12,11 @@ The Technical Steering Committee (TSC) is responsible for:
 1. Raise subjects/issues that are important for the direction/development of this project
 
 The community council consists of the following members:
-1. Product Owner - Team X
-1. Product Owner - Team Y
-1. Solution Architect - Team X
-1. Solution Architect - Team Y
-1. Lead Developer - Team X
-1. Lead Developer - Team Y
+1. Lex de Wolff - Alliander
+2. Ton van der Knaap - Stedin
+3. ...
 
-Product Owner - Team X will chair the TSC.
+Lex de Wolff will chair the TSC.
 
 ## Maintainers
 
@@ -33,10 +30,11 @@ Maintainers are responsible for maintaining parts of the code-base. Maintainers 
 1. In case of long discussions or arguments, maintainers or other can request a community council decision.
 
 The current maintainers of this project are:
- 1. Developer 1 - Team X
- 1. Developer 2 - Team X
- 1. Developer 3 - Team Y
- 1. Developer 4 - Team Y
+1. Jonas van den Bogaard - Alliander
+2. Prince Singh - Alliander
+3. Lex de Wolff - Alliander
+4. Ton van der Knaap - Stedin
+5. ...
 
  ## Contributors
 
