@@ -1,15 +1,10 @@
-# NBility-business-capabilities-XML
+<!--
+SPDX-FileCopyrightText: 2017-2022 Contributors to the NBility project
 
-This repo contains NBility-business-capabilities model in XML format. 
+SPDX-License-Identifier: CC-BY-4.0
+-->
 
-# Installation 
-The use the NBility-business-capabilities you need [Archi](https://www.archimatetool.com/) or other archimate tool. 
+# .github
+Default files for all repos in the NBility project GitHub org
 
-## License
-This project is licensed under the ???? - see [LICENSE](LICENSE) for details.
-
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for submitting pull requests to us.
-
-## Contact
-Please read [SUPPORT.md](SUPPORT.md) for how to connect and get into contact with the NBility-business-capabilities model project
+The /profile/README.md will appear on the organization's profile.
