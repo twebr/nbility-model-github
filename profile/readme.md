@@ -20,7 +20,7 @@ For further details on the NBility model:
 * A webinar introducing the NBility model was held on September 15, 2021. You can view the recording here: [Webinar NBility September 15, 2021 (YouTube)](https://youtu.be/hpRPoQU_ids) (Dutch only)
 
 # License
-This project is licensed under the Creative Commons Attribution 4.0 International license - see [LICENSE](LICENSE) for details.
+This project is licensed under To Be Determined - see [LICENSE](LICENSE) for details.
 
 # Contributing
 Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [CONTRIBUTING.md](CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
