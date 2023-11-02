@@ -1,5 +1,5 @@
 # NBility
-The repos in this github org contains the NBility Model. 
+The repos in this github org contains [the NBility Model](https://www.edsn.nl/nbility-model/). 
 
 # Introduction
 NBility is a capability model for a grid operator. It has been created to simplify working together within the utility sector and with the suppliers/advisors of the grid operators. The NBilty model exists of a capability model, a  related  business object model and a value stream model.  
