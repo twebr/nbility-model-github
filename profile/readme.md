@@ -7,7 +7,7 @@ NBility is a capability model for a grid operator. It has been created to simpli
 The NBility model is maintained by the Dutch Distribution System Operators. A User Group, where users of NBility can exchange experiences and make suggestions for improvement, is being established.
 
 # English version of NBility
-The English version of model is currently available only in PowerPoint format: [NBility – Model latest version - English - PowerPoint format](https://github.com/NBility-Model/NBility-business-capabilities-PPTX).
+The English version of model is currently available only in PowerPoint format: [NBility – Model latest version - English - PowerPoint format](https://nbility-model.github.io/NBility-business-capabilities-Archi/?view=id-27932).
 
 # Dutch versions of NBility
 The Dutch version of model is currently available in the following formats:
