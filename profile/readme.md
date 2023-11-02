@@ -11,16 +11,16 @@ The English version of model is currently available only in PowerPoint format: [
 
 # Dutch versions of NBility
 The Dutch version of model is currently available in the following formats:
-* [NBility - Model latest version - Dutch - PowerPoint format](https://github.com/NBility-Model/NBility-business-capabilities-PPTX) - The model can be viewed [here without the need to install Archi](https://nbility-model.github.io/NBility-business-capabilities-Archi/).
+* [NBility - Model latest version - Dutch - Archi format](https://github.com/NBility-Model/NBility-business-capabilities-Archi) - The model can be viewed [here without the need to install Archi](https://nbility-model.github.io/NBility-business-capabilities-Archi/).
 * [NBility - Model latest version - Dutch - XML format](https://github.com/NBility-Model/NBility-business-capabilities-XML) - The XML file of NBility can be imported into various applications.
-* [NBility - Model latest version - Dutch - Archi format](https://github.com/NBility-Model/NBility-business-capabilities-Archi)
+* [NBility - Model latest version - Dutch - PowerPoint format](https://github.com/NBility-Model/NBility-business-capabilities-PPTX)
 
 # Additional information
 For further details on the NBility model:
 * A webinar introducing the NBility model was held on September 15, 2021. You can view the recording here: [Webinar NBility September 15, 2021 (YouTube)](https://youtu.be/hpRPoQU_ids) (Dutch only)
 
 # License
-This project is licensed under To Be Determined - see [LICENSE](LICENSE) for details.
+This project is licensed - see [LICENSE](LICENSE) for details.
 
 # Contributing
 Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [CONTRIBUTING.md](CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
