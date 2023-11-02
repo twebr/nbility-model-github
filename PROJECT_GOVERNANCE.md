@@ -14,7 +14,8 @@ The Technical Steering Committee (TSC) is responsible for:
 The community council consists of the following members:
 1. Lex de Wolff - Alliander
 2. Ton van der Knaap - Stedin
-3. ...
+3. John Smarius - Enexis
+4. ...
 
 Lex de Wolff will chair the TSC.
 
@@ -34,7 +35,8 @@ The current maintainers of this project are:
 2. Prince Singh - Alliander
 3. Lex de Wolff - Alliander
 4. Ton van der Knaap - Stedin
-5. ...
+5. John Smarius - Enexis
+6. ...
 
  ## Contributors
 
