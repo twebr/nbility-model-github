@@ -12,7 +12,8 @@ Once a feature or change has been reviewed and accepted, the feature branch can 
 
 After opening Archi, from the menu, choose _Collaboration_ and then click _Toggle collaboration_. This will open the collaboration workspace showing all repositories where multiple users are collaborating. Clicking on a repository will show all feature branches and the users who created these branches, see Figure 1 below. 
 
-(https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
+![coArchi-github-settings](https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
+Fig. 1
 
 ## Consistency in commits to main branch
 
