@@ -10,10 +10,12 @@ Once a feature or change has been reviewed and accepted, the feature branch can 
 
 ## Overview of collaboration
 
-After opening Archi, from the menu, choose _Collaboration_ and then click _Toggle collaboration_. This will open the collaboration workspace showing all repositories where multiple users are collaborating. Clicking on a repository will show all feature branches and the users who created these branches, see figure below. 
+After opening Archi, from the menu, choose _Collaboration_ and then click _Toggle collaboration_. This will open the collaboration workspace showing all repositories where multiple users are collaborating. Clicking on a repository will show all feature branches and the users who created these branches, see Figure 1 below. 
+
+(https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
 
 ## Consistency in commits to main branch
 
 It would occur that users while working on their own branches makes changes which are conflicting. Provide example. For such cases Archi has a conflict resolution mechanism wherein for every conflicting change, the user is asked to specify change in the model he/she would like to keep, and which changes can be omitted. By doing so, consistency is ensured in the main architecture repository. 
 
-Contributions for contributors should be submitted as Github pull requests. See [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) if you're unfamiliar with this concept.
+Contributions for contributors should be submitted as Github pull requests. See [Creating a pull request]([https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request](https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)) if you're unfamiliar with this concept.
