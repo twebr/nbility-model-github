@@ -102,7 +102,7 @@ Source diagram: https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-
 ### Key Concepts
 1. **Main Branch**
 
-* The master branch is always stable and contains the latest release-ready code.
+* The main branch is always stable and contains the latest release-ready code.
 
 2. **Feature Branches**
 
@@ -110,35 +110,35 @@ Source diagram: https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-
 
 3. **Release Branches**
 
-* Release branches (release/vX.Y) are created from the master branch when preparing for a new release. This allows for final testing and bug fixing without disrupting ongoing development.
+* Release branches (release/vX.Y) are created from the main branch when preparing for a new release. This allows for final testing and bug fixing without disrupting ongoing development.
 * Release candidates (vX.Y.0-rc1, vX.Y.0-rc2, etc.) are tagged in the release branch as needed.
 
 4. **Hotfixes and Quick Fixes**
 
-* Critical fixes can be made directly on the release branch and merged back into the master branch. These fixes can also be cherry-picked into other branches if necessary.
+* Critical fixes can be made directly on the release branch and merged back into the main branch. These fixes can also be cherry-picked into other branches if necessary.
 
 ### Workflow
 1. **Development**
 
-* Create a feature branch from master.
+* Create a feature branch from main.
 * Develop and test the feature in the feature branch.
-* Merge the feature branch back into master after review and testing.
+* Merge the feature branch back into main after review and testing.
 
 2. **Release Preparation**
 
-* Create a release branch from master.
+* Create a release branch from main.
 * Perform final testing and make any necessary fixes in the release branch.
 * Tag release candidates as needed (vX.Y.0-rc1, vX.Y.0-rc2, etc.).
 
 3. **Release**
 
-* Merge the release branch back into master once it is stable.
+* Merge the release branch back into main once it is stable.
 * Tag the final release (vX.Y.0).
 
 4. **Hotfixes**
 
 * Apply critical fixes directly to the release branch.
-* Merge these fixes back into master and any active feature branches as needed.
+* Merge these fixes back into main and any active feature branches as needed.
 
 This branching strategy ensures a stable mainline while allowing for efficient development, testing, and release management.
 
