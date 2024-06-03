@@ -93,9 +93,11 @@ The [NBility-Model project Planning Board](https://github.com/orgs/NBility-Model
 Using the planning board helps keep the project organized, ensures transparency, and facilitates collaboration among contributors.
 
 ## Branching Strategy for Release Management
-To ensure a stable and efficient release process, NBility-Model follows a branching strategy inspired by the Stable Mainline Branching Model for Git. The following diagram illustrates the branching strategy:
+To ensure a stable and efficient release process, NBility-Model follows a branching strategy inspired by the [Stable Mainline Branching Model](https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/) for Git. The following diagram illustrates the branching strategy:
 
-Branching Strategy
+![branch_strategie](https://github.com/NBility-Model/.github/blob/Update_CONTRIBUTING.md/images/Branch%20strategy.png)
+
+Source diagram: https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/
 
 ### Key Concepts
 1. **Main Branch**
@@ -150,7 +152,7 @@ Feature branches exist parallel to the main branches. Users can make changes and
 After opening [Archi]](https://www.archimatetool.com/), from the menu, choose _Collaboration and then click _Toggle collaboration. This will open the collaboration workspace showing all repositories where multiple users are collaborating. Clicking on a repository will show all feature branches and the users who created these branches, as shown in Figure 1 below.
 
 ![coArchi-github-settings](https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
-Fig. 1
+Fig. 2
 
 ### Consistency in Commits to Main Branch
 It might occur that users, while working on their own branches, make changes that conflict. For such cases, Archi has a conflict resolution mechanism wherein for every conflicting change, the user is asked to specify the change in the model they would like to keep, and which changes can be omitted. By doing so, consistency is ensured in the main architecture repository.
