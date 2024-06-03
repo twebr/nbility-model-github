@@ -1,6 +1,28 @@
 # Contributing to NBility-Model
 Thank you for considering contributing to the NBility-Model project! We appreciate your interest and look forward to your contributions. Follow the guidelines below to ensure a smooth and collaborative experience.
 
+## Ways of Contributing
+Contribution does not necessarily mean committing code to the repository. We recognize different levels of contributions, as shown below in increasing order of dedication:
+
+1. **Testing and Feedback**
+* Test and use the model.
+* Provide feedback on the user experience.
+* Suggest new features.
+2. **Validation**
+* Validate the model against your use-cases.
+* Share your feedback and experiences.
+3. **Bug Reporting**
+* Identify and report bugs.
+* Provide detailed information to help us replicate and fix issues.
+4.  **Documentation Improvement**
+* Enhance existing documentation.
+* Add new documentation to clarify and improve understanding.
+5. **Model Development**
+* Feature Enhancements: Improve or add new features to the NBility codebase.
+
+### Getting Started
+A good place to start is to look at issues with the good first issue label, or to check the [NBility-Model project](https://github.com/orgs/NBility-Model/projects/3/views/1). These are beginner-friendly issues that are well-suited for new contributors.
+
 ## How to Contribute
 ### Collaboration - Feature Branches
 NBility-Model provides the possibility for users to collaborate on modeling and working on the same repository. Depending on the need, multiple feature branches may be created. See this article on how to create a feature branch. Each user with the appropriate permissions can create a feature branch from the main branch and provide permission to other users who will work on this feature branch.
