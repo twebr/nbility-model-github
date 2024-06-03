@@ -23,7 +23,41 @@ Contribution does not necessarily mean committing code to the repository. We rec
 ### Getting Started
 A good place to start is to look at issues with the good first issue label, or to check the [NBility-Model project](https://github.com/orgs/NBility-Model/projects/3/views/1). These are beginner-friendly issues that are well-suited for new contributors.
 
-## How to Contribute
+## Using the NBility Model Project Planning Board
+The [NBility-Model project Planning Board](https://github.com/orgs/NBility-Model/projects/3/views/1) is an essential tool for organizing and tracking the progress of tasks within the NBility-Model project. Here's how to use it effectively:
+
+1. **Accessing the Board**
+* Navigate to the project's GitHub Planning Board to view all tasks and their statuses.
+  
+2. **Understanding Columns**
+* The board is divided into columns, each representing different stages of the workflow (e.g., Backlog, In Progress, Review, Done).
+* Tasks move from left to right as they progress through these stages.
+
+3. **Creating and Assigning Tasks**
+
+* New tasks can be created by clicking the "New Issue" button. Provide a clear title and detailed description.
+* Assign tasks to yourself or others by using the assignee feature.
+
+4. **Tracking Progress**
+
+* Update the status of tasks by dragging them to the appropriate column.
+* Use labels to categorize tasks by type (e.g., bug, feature, documentation).
+
+5. **Collaborating and Communicating**
+
+* Comment on tasks to provide updates or ask for help.
+* Mention team members using @username to notify them of important updates.
+  
+## Example Workflow
+1. Backlog: New ideas and tasks are added here.
+2. To Do: Tasks that are ready to be worked on.
+3. In Progress: Tasks currently being worked on.
+4. Review: Completed tasks awaiting review.
+5. Done: Completed and reviewed tasks.
+   
+Using the planning board helps keep the project organized, ensures transparency, and facilitates collaboration among contributors.
+
+## How to Contribute to the Documentation and to the Model
 ### Collaboration - Feature Branches
 NBility-Model provides the possibility for users to collaborate on modeling and working on the same repository. Depending on the need, multiple feature branches may be created. See this article on how to create a feature branch. Each user with the appropriate permissions can create a feature branch from the main branch and provide permission to other users who will work on this feature branch.
 
