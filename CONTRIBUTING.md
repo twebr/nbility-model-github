@@ -24,7 +24,7 @@ Contribution does not necessarily mean committing code to the repository. We rec
 A good place to start is to look at issues with the good first issue label, or to check the [NBility-Model project](https://github.com/orgs/NBility-Model/projects/3/views/1). These are beginner-friendly issues that are well-suited for new contributors.
 
 ## Using GitHub Issues for Bug Reports and Feature Requests
-GitHub Issues is a powerful tool for tracking bugs, change requests, and feature requests. Here's how you can use it effectively to contribute to NBility-Model:
+GitHub Issues is a powerful tool for tracking bugs, change requests, and feature requests. Here's how you can use it effectively to contribute to NBility-Model: 
 
 1. **Submitting a Bug Report**
 
@@ -91,6 +91,54 @@ The [NBility-Model project Planning Board](https://github.com/orgs/NBility-Model
 5. **Done:** Completed and reviewed tasks.
    
 Using the planning board helps keep the project organized, ensures transparency, and facilitates collaboration among contributors.
+
+## Branching Strategy for Release Management
+To ensure a stable and efficient release process, NBility-Model follows a branching strategy inspired by the Stable Mainline Branching Model for Git. The following diagram illustrates the branching strategy:
+
+Branching Strategy
+
+### Key Concepts
+1. **Main Branch**
+
+* The master branch is always stable and contains the latest release-ready code.
+
+2. **Feature Branches**
+
+* Feature branches are created from the master branch for developing new features or making changes. These branches are merged back into the master branch once the feature is complete and has passed review.
+
+3. **Release Branches**
+
+* Release branches (release/vX.Y) are created from the master branch when preparing for a new release. This allows for final testing and bug fixing without disrupting ongoing development.
+* Release candidates (vX.Y.0-rc1, vX.Y.0-rc2, etc.) are tagged in the release branch as needed.
+
+4. **Hotfixes and Quick Fixes**
+
+* Critical fixes can be made directly on the release branch and merged back into the master branch. These fixes can also be cherry-picked into other branches if necessary.
+
+### Workflow
+1. **Development**
+
+* Create a feature branch from master.
+* Develop and test the feature in the feature branch.
+* Merge the feature branch back into master after review and testing.
+
+2. **Release Preparation**
+
+* Create a release branch from master.
+* Perform final testing and make any necessary fixes in the release branch.
+* Tag release candidates as needed (vX.Y.0-rc1, vX.Y.0-rc2, etc.).
+
+3. **Release**
+
+* Merge the release branch back into master once it is stable.
+* Tag the final release (vX.Y.0).
+
+4. **Hotfixes**
+
+* Apply critical fixes directly to the release branch.
+* Merge these fixes back into master and any active feature branches as needed.
+
+This branching strategy ensures a stable mainline while allowing for efficient development, testing, and release management.
 
 ## How to Contribute to the Model
 ### Collaboration - Feature Branches
