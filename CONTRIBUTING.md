@@ -23,6 +23,41 @@ Contribution does not necessarily mean committing code to the repository. We rec
 ### Getting Started
 A good place to start is to look at issues with the good first issue label, or to check the [NBility-Model project](https://github.com/orgs/NBility-Model/projects/3/views/1). These are beginner-friendly issues that are well-suited for new contributors.
 
+## Using GitHub Issues for Bug Reports and Feature Requests
+GitHub Issues is a powerful tool for tracking bugs, change requests, and feature requests. Here's how you can use it effectively to contribute to NBility-Model:
+
+1. **Submitting a Bug Report**
+
+* Navigate to the Issues tab.
+* Click on "New Issue" and select the "Bug report" template.
+*Provide a descriptive title and detailed information about the bug, including steps to reproduce, expected behavior, and screenshots if applicable.
+
+2. **Requesting a Feature**
+
+* Go to the Issues tab.
+* Click on "New Issue" and select the "Feature request" template.
+* Describe the feature in detail, including the problem it solves and any potential implementation ideas.
+
+3. **Submitting a Change Request**
+
+* Access the Issues tab.
+* Click "New Issue" and select the appropriate template for a change request.
+* Provide a clear title and detailed description of the proposed change, including reasons for the change and any potential impacts.
+
+4. **Tracking and Managing Issues**
+
+* Use labels to categorize and prioritize issues (e.g., bug, enhancement, documentation).
+* Assign issues to yourself or team members to indicate who is responsible for addressing them.
+* Comment on issues to provide updates, ask for more information, or discuss potential solutions.
+
+### Example Issue Workflow
+1. **Open:** The issue is created and needs to be addressed.
+2. **In Progress:** The issue is currently being worked on.
+3. **Review:** The issue is resolved and awaiting review.
+4. **Closed:** The issue is resolved and closed after review.
+
+Using [GitHub Issues](https://docs.github.com/en/issues) helps maintain a clear and organized workflow, ensuring that all contributions are properly tracked and managed.
+
 ## Using the NBility Model Project Planning Board
 The [NBility-Model project Planning Board](https://github.com/orgs/NBility-Model/projects/3/views/1) is an essential tool for organizing and tracking the progress of tasks within the NBility-Model project. Here's how to use it effectively:
 
