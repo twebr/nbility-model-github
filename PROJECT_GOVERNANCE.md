@@ -15,7 +15,7 @@ The community council consists of the following members:
 1. Lex de Wolff - Alliander
 2. Ton van der Knaap - Stedin
 3. John Smarius - Enexis
-4. ...
+4. Hans Postema - Gasunie
 
 Lex de Wolff will chair the TSC.
 
@@ -36,7 +36,7 @@ The current maintainers of this project are:
 3. Lex de Wolff - Alliander
 4. Ton van der Knaap - Stedin
 5. John Smarius - Enexis
-6. ...
+6. Hans Postema - Gasunie
 
  ## Contributors
 
