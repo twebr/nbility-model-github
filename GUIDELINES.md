@@ -1,4 +1,5 @@
 NBility model adheres to generic design rules. Every adjustment and/or expansion should conform to these rules. 
+
 •	Metamodel: NBility uses a metamodel:
 
  
