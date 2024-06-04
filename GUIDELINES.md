@@ -2,23 +2,23 @@ NBility model adheres to generic design rules. Every adjustment and/or expansion
 
 •	Metamodel: NBility uses a metamodel:
 
- 
-
-o	The definitions of the elements and relationships in the metamodel are as follows:
-o	business function: collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole
-o	business object: concept used within a particular business domain
-o	value stream: sequence of activities that create an overall result for a customer, stakeholder, or end user
-o	value stream stage: distinct, identifiable phase or step within a value stream
-o	controls: changes and prevents changes to the state of a concept
-o	modifies: changes the state of a concept
-o	composed of: consists of one or more other concepts
-o	contextualizes: influences the definition of a concept
-o	serves: provides functionality to another concept
-o	triggers: temporal or causal relationship between concepts
-o	associated to: unspecified relationship
-o	The metamodel defines multiplicities using crow’s foot notation, in which a ring represents ’zero’, a dash represents ’one’ and a crow’s foot represents ’many’ or ’infinite’. In pairs, they represent the minimum and maximum multiplicities.
+      o	The definitions of the elements and relationships in the metamodel are as follows:
+      o	business function: collection of business behavior based on a chosen set of criteria such as required business resources
+        and/or competencies, and is managed or performed as a whole
+      
+      o	business object: concept used within a particular business domain
+      o	value stream: sequence of activities that create an overall result for a customer, stakeholder, or end user
+      o	value stream stage: distinct, identifiable phase or step within a value stream
+      o	controls: changes and prevents changes to the state of a concept
+      o	modifies: changes the state of a concept
+      o	composed of: consists of one or more other concepts
+      o	contextualizes: influences the definition of a concept
+      o	serves: provides functionality to another concept
+      o	triggers: temporal or causal relationship between concepts
+      o	associated to: unspecified relationship
+      o	The metamodel defines multiplicities using crow’s foot notation, in which a ring represents ’zero’, a dash represents ’one’ and a crow’s foot represents ’many’ or ’infinite’. In pairs, they represent the minimum and maximum multiplicities.
 For example, the figure shows that each business function is composed of zero to many business functions and that each business object is controlled by one business function. The relationships and their multiplicities are justified in the section that provides the rationale for each consistency rule and guideline.
-o	The metamodel has a contextualizes relationship. Contextualization is an abstraction mechanism, like generalization, aggregation, and composition. A context is a relation between things and names. The business object energy grid may be instantiated to actual grids, such as the one in the city of Rotterdam or Amsterdam, but it can also serve as a context for a collection of lower-level business objects, such as grid component and grid design. An example of an object instance that can change context is the transformer. When installed in an energy grid, it ceases to be a material in the context of work and starts to be a grid component in the context of the energy grid. In enterprise data models, the elements at the highest level of abstraction are typically called subject areas, which refers to their role as the context for lower-level elements. In our metamodel, we choose to be agnostic to the level of abstraction and, therefore, do not use subject areas.
+      o	The metamodel has a contextualizes relationship. Contextualization is an abstraction mechanism, like generalization, aggregation, and composition. A context is a relation between things and names. The business object energy grid may be instantiated to actual grids, such as the one in the city of Rotterdam or Amsterdam, but it can also serve as a context for a collection of lower-level business objects, such as grid component and grid design. An example of an object instance that can change context is the transformer. When installed in an energy grid, it ceases to be a material in the context of work and starts to be a grid component in the context of the energy grid. In enterprise data models, the elements at the highest level of abstraction are typically called subject areas, which refers to their role as the context for lower-level elements. In our metamodel, we choose to be agnostic to the level of abstraction and, therefore, do not use subject areas.
 
  
 •	Naming conventions (every object on a certain level of abstraction has a unique name.
