@@ -10,8 +10,7 @@ NBility model adheres to generic design rules. Every adjustment and/or expansion
 
 NBility uses a metamodel:
 
-![](NBility metamodel.png)
-
+![NBility metamodel](/images/NBility metamodel.png)
 
 The definitions of the elements and relationships in the metamodel are as follows:
 * elements
@@ -33,6 +32,7 @@ The metamodel defines multiplicities using crow’s foot notation, in which a ri
 * The metamodel has a contextualizes relationship. Contextualization is an abstraction mechanism, like generalization, aggregation, and composition. A context is a relation between things and names. The business object energy grid may be instantiated to actual grids, such as the one in the city of Rotterdam or Amsterdam, but it can also serve as a context for a collection of lower-level business objects, such as grid component and grid design. An example of an object instance that can change context is the transformer. When installed in an energy grid, it ceases to be a material in the context of work and starts to be a grid component in the context of the energy grid. In enterprise data models, the elements at the highest level of abstraction are typically called subject areas, which refers to their role as the context for lower-level elements. In our metamodel, we choose to be agnostic to the level of abstraction and, therefore, do not use subject areas.
 
 ## Naming convention
+
 Naming conventions (every object on a certain level of abstraction has a unique name.
 * The naming convention for a capabiliy is: <noun + verb>.
     * Every capability can be preceded by: 'a grid operator can' <noun+verb>.
@@ -45,6 +45,7 @@ Naming conventions (every object on a certain level of abstraction has a unique 
 * The naming convention for a value stream is: <verb + noun>
 
 ## Model explenation / design choices
+
 The model is created with some design choices which are explained below. Every adjustment and/or expansion should conform to these choices or explain why these weren't applicable (with a valuecase). 
 * Granularity: The model has three abstraction layers and maximal 7 objects per layer.
     * Three abstraction layers are defined to support strategic, tactical and operational management of a grid operator.
@@ -72,6 +73,7 @@ The model is created with some design choices which are explained below. Every a
 * The main capability E.2.2 ‘Manage data’ is aimed at business data. This is data created and maintained by the core and enterprise capabilities that can be combined.  
 
 ## Consistency rules
+
 NBility model adheres to Consistency rules and guidelines. 
 The metamodel is the basis for formulating consistency rules and guidelines. The metamodel already contains a set of rules in the form of multiplicities that are not zero to many. These rules can be uses as a checklist. The rules (R) are rigid, and the guidelines (G) are recommendations. Rules refer to an element that is composed of or contextualizes other elements as their abstraction. The number of times an element is (recursively) composed or contextualized by another element determines its level of abstraction. 
 * Rules
