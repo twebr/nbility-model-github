@@ -1,6 +1,12 @@
+# NBility model design guidelines
+
 NBility model adheres to generic design rules. Every adjustment and/or expansion should conform to these rules. 
 
-•	Metamodel: NBility uses a metamodel:
+## NBility metamodel: 
+
+NBility uses a metamodel:
+
+
 
       o	The definitions of the elements and relationships in the metamodel are as follows:
       o	business function: collection of business behavior based on a chosen set of criteria such as required business resources
