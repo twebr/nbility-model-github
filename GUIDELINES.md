@@ -10,8 +10,10 @@ NBility model adheres to generic design rules. Every adjustment and/or expansion
 
 NBility uses a metamodel:
 
-![NBility metamodel](/images/NBility metamodel.png)
+![](https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20NBilitty metamodel.png)
 
+
+(https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
 The definitions of the elements and relationships in the metamodel are as follows:
 * elements
     * business function: collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole
