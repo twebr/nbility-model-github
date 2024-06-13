@@ -10,16 +10,13 @@ NBility model adheres to generic design rules. Every adjustment and/or expansion
 
 NBility uses a metamodel:
 
-![](https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20NBilitty metamodel.png)
+![NBility_metamodel](https://github.com/NBility-Model/.github/blob/Update-guidelines.md/images/NBility%20metamodel.png)
 
-
-(https://github.com/NBility-Model/.github/blob/main/images/Fig%201%20Collaboration.png)
 The definitions of the elements and relationships in the metamodel are as follows:
 * elements
     * business function: collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole
     * business object: concept used within a particular business domain
     * value stream: sequence of activities that create an overall result for a customer, stakeholder, or end user
-    * value stream stage: distinct, identifiable phase or step within a value stream
 * relations
     * controls: changes and prevents changes to the state of a concept
     * modifies: changes the state of a concept
