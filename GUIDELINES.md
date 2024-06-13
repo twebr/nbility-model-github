@@ -15,7 +15,9 @@ NBility uses a metamodel:
 The definitions of the elements and relationships in the metamodel are as follows:
 * elements
     * business function: collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole
-    * business object: concept used within a particular business domain
+    * business object: concept used within a particular business domain.
+        * A business object is an abstraction of a collection of things in the real world (material or immaterial) important for a grid operator (and therefore to be managed)
+        * A business object is countable 
     * value stream: sequence of activities that create an overall result for a customer, stakeholder, or end user
 * relations
     * controls: changes and prevents changes to the state of a concept
@@ -32,7 +34,7 @@ The metamodel defines multiplicities using crow’s foot notation, in which a ri
 
 ## Naming convention
 
-Naming conventions (every object on a certain level of abstraction has a unique name.
+Naming conventions (every element on a certain level of abstraction has a unique name that can be understood by outsiders.
 * The naming convention for a capabiliy is: <noun + verb>.
     * Every capability can be preceded by: 'a grid operator can' <noun+verb>.
     * The noun in the name of the capability is mostly the business object managed by that capability.
@@ -51,7 +53,6 @@ The model is created with some design choices which are explained below. Every a
     * A capability on levels 3, 2 or 1 is only defined if the lifecycle of such a capability differs.
         * So if the business capability can separately be managed and the activities of the capability can separately be changed.
         * An indication might be if there is a separate business owner within most grid operators, although this is just an indication.
-* NBility elements can be understood by outsiders.
 * No registration capabilities - The registration of a business object is always part of the capability managing the business object. No capabilities are defined just for registration of a business object.
 * Two Capability groupings: NBility consists of two Capability groupings: the core capability group (identification starts with 'C'); and the enterprise capability group  (identification starts with 'E')
     * Core capabilities are capabilities specific for a grid operator
@@ -61,8 +62,7 @@ The model is created with some design choices which are explained below. Every a
     * Capability identification starts with the grouping identification ('C', 'E') and contains a number within a level and a dot '.' for every level. E.g. C.1; E.1.2.1.
     * Value stream identification starts with the grouping identification ('P', 'I') and contains a letter for every valuestream, e.g. P.A, E.B
 * Service decoupling: Core value streams do not contain enterprise domain capabilities because these are decoupled via internal services realised by internal value streams.
-* A business object is an abstraction of a collection of things in the real world (material or immaterial) important for a grid operator (and therefore to be managed)
-    * A business object is countable 
+
 * Business capabilities/functions and business objects are part of the enterprise architecture capability (E.1.3.1). The translation to enterprise design (e.g. data, processes, supporting digital products, employees with knowledge and experience, office building) is part of the domains managing these production factors (E.2-E.7).  
 * Process definitions (E.2.1.1 Define and improve processes) are separated from process sessions/cases (E2.1.2 Orchestrate processes).
 * Materials and working equipment is purchased in the enterprise domain (E.5.2) and managed in the core domain (5.4).
