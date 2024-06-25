@@ -29,19 +29,19 @@ GitHub Issues is a powerful tool for tracking bugs, change requests, and feature
 1. **Submitting a Bug Report**
 
 * Navigate to the Issues tab.
-* Click on "New Issue" and select the "Bug report" template.
+* Click on "New Issue" e.
 *Provide a descriptive title and detailed information about the bug, including steps to reproduce, expected behavior, and screenshots if applicable.
 
 2. **Requesting a Feature**
 
 * Go to the Issues tab.
-* Click on "New Issue" and select the "Feature request" template.
+* Click on "New Issue".
 * Describe the feature in detail, including the problem it solves and any potential implementation ideas.
 
 3. **Submitting a Change Request**
 
 * Access the Issues tab.
-* Click "New Issue" and select the appropriate template for a change request.
+* Click "New Issue".
 * Provide a clear title and detailed description of the proposed change, including reasons for the change and any potential impacts.
 
 4. **Tracking and Managing Issues**
@@ -95,7 +95,7 @@ Using the planning board helps keep the project organized, ensures transparency,
 ## Branching Strategy for Release Management
 To ensure a stable and efficient release process, NBility-Model follows a branching strategy inspired by the [Stable Mainline Branching Model](https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/) for Git. The following diagram illustrates the branching strategy:
 
-![branch_strategie](https://github.com/NBility-Model/.github/blob/Update_CONTRIBUTING.md/images/Branch%20strategy.png)
+![branch_strategie](https://github.com/NBility-Model/.github/blob/main/images/Branch%20strategy.png))
 
 Source diagram: https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/
 
@@ -142,6 +142,18 @@ Source diagram: https://www.bitsnbites.eu/a-stable-mainline-branching-model-for-
 
 This branching strategy ensures a stable mainline while allowing for efficient development, testing, and release management.
 
+## How to Contribute to the Documentation
+
+### Using the Markdown formatted text
+For all documentation, the NBility model uses Markdown. Markdown is a lightweight markup language that allows you to add formatting elements to plaintext documents.
+
+For more information on the Markdown format, see [Getting Started with Markdown](https://www.markdownguide.org/getting-started/)
+
+### Submitting Contributions
+Contributions for contributors should be submitted as GitHub pull requests. See [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) if you're unfamiliar with this concept. When submitting a pull request, please ensure:
+
+Once the Pull Request has been reviewed and accepted, the feature branch can be merged with the main repository. By doing so, the changes in the feature branch are committed to the main branch.
+
 ## How to Contribute to the Model
 ### Collaboration - Feature Branches
 NBility-Model provides the possibility for users to collaborate on modeling and working on the same repository. Depending on the need, multiple feature branches may be created. See this article on how to create a feature branch. Each user with the appropriate permissions can create a feature branch from the main branch and provide permission to other users who will work on this feature branch.
@@ -157,10 +169,20 @@ Fig. 2
 ### Consistency in Commits to Main Branch
 It might occur that users, while working on their own branches, make changes that conflict. For such cases, Archi has a conflict resolution mechanism wherein for every conflicting change, the user is asked to specify the change in the model they would like to keep, and which changes can be omitted. By doing so, consistency is ensured in the main architecture repository.
 
+### Follow the NBility model design guidelines
+NBility model adheres to generic design guidelines. Every adjustment and/or expansion should conform to these guidelines. These guidelines consist of:
+
+* NBility metamodel
+* Naming conventions
+* Model explenation / design choices
+* Consistency rules
+
+For more information on these guidelines, see [GUIDELINES.md](https://github.com/NBility-Model/.github/blob/main/GUIDELINES.md)
+
 ### Submitting Contributions
 Contributions for contributors should be submitted as GitHub pull requests. See [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) if you're unfamiliar with this concept. When submitting a pull request, please ensure:
 
-* Your code adheres to the project's coding standards.
+* Your code adheres to the project's [design guidelines](https://github.com/NBility-Model/.github/blob/main/GUIDELINES.md). 
 * You have tested your changes thoroughly.
 * You have updated any relevant documentation.
 
