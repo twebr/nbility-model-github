@@ -10,7 +10,7 @@ NBility model adheres to generic design rules. Every adjustment and/or expansion
 
 NBility uses a metamodel:
 
-![NBility_metamodel](https://github.com/NBility-Model/.github/blob/Update-guidelines.md/images/NBility%20metamodel.png)
+![NBility_metamodel](https://github.com/NBility-Model/.github/blob/main/images/NBility%20metamodel.png)
 
 The definitions of the elements and relationships in the metamodel are as follows:
 * elements
