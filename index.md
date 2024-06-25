@@ -7,5 +7,6 @@ Detailed contents of the documentation are structured as follows.
 :maxdepth: 2
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
-GOVERNANCE.md
+GUIDELINES.md
+PROJECT_GOVERNANCE.md
 ```
