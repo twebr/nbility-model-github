@@ -25,8 +25,8 @@ For further details on the NBility model:
 This project is licensed Creative Commons Attribution 4.0 International Public License (CC-BY-4.0) - see [LICENSE](LICENSE) for details.
 
 # Contributing
-Please read [CODE_OF_CONDUCT.md](docs/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](docs/CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](docs/PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
+Please read [CODE_OF_CONDUCT.md](https://github.com/NBility-Model/.github/tree/main/docs/CODE_OF_CONDUCT.md), [CONTRIBUTING.md](https://github.com/NBility-Model/.github/tree/main/docs/CONTRIBUTING.md) and [PROJECT_GOVERNANACE.md](https://github.com/NBility-Model/.github/tree/main/docs/PROJECT_GOVERNANCE.md) for details on the process for submitting pull requests to us.
 
 # Contact
-Please read [SUPPORT.md](docs/SUPPORT.md) for how to connect and get into contact with the NBility project
+Please read [SUPPORT.md](https://github.com/NBility-Model/.github/tree/main/docs/SUPPORT.md) for how to connect and get into contact with the NBility project
 
