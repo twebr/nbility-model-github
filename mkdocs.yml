@@ -1,0 +1,16 @@
+site_name: NBility-Model Community Files
+repo_url: https://github.com/NBility-Model/.github
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+  - content.action.edit
+  - navigation.indexes
+  - navigation.path
+  - toc.follow
+  - navigation.top
+markdown_extensions:
+- attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
