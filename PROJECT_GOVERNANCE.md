@@ -37,7 +37,6 @@ The current maintainers of this project are:
 4. Ton van der Knaap - Stedin
 5. John Smarius - Enexis
 6. Hans Postema - Gasunie
-7. ...
 
  ## Contributors
 
