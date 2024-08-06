@@ -1,18 +1,20 @@
 # NBility model design guidelines
 
 NBility model adheres to generic design rules. Every adjustment and/or expansion should conform to these rules. These guidelines consist of:
+
 * NBility metamodel
 * Naming conventions
 * Model explenation / design choices
 * Consistency rules
 
-## NBility metamodel 
+## NBility metamodel
 
 NBility uses a metamodel:
 
-![NBility_metamodel](https://github.com/NBility-Model/.github/blob/main/images/NBility%20metamodel.png)
+![NBility_metamodel](images/NBility%20metamodel.png)
 
 The definitions of the elements and relationships in the metamodel are as follows:
+
 * elements
     * business function: collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole
     * business object: concept used within a particular business domain.
@@ -29,25 +31,29 @@ The definitions of the elements and relationships in the metamodel are as follow
     * associated to: unspecified relationship
 
 The metamodel defines multiplicities using crow’s foot notation, in which a ring represents ’zero’, a dash represents ’one’ and a crow’s foot represents ’many’ or ’infinite’. In pairs, they represent the minimum and maximum multiplicities.
+
 * For example, the figure shows that each business function is composed of zero to many business functions and that each business object is controlled by one business function.
 * The metamodel has a contextualizes relationship. Contextualization is an abstraction mechanism, like generalization, aggregation, and composition. A context is a relation between things and names. The business object energy grid may be instantiated to actual grids, such as the one in the city of Rotterdam or Amsterdam, but it can also serve as a context for a collection of lower-level business objects, such as grid component and grid design. An example of an object instance that can change context is the transformer. When installed in an energy grid, it ceases to be a material in the context of work and starts to be a grid component in the context of the energy grid. In enterprise data models, the elements at the highest level of abstraction are typically called subject areas, which refers to their role as the context for lower-level elements. In our metamodel, we choose to be agnostic to the level of abstraction and, therefore, do not use subject areas.
 
 ## Naming convention
 
 Naming conventions (every element on a certain level of abstraction has a unique name that can be understood by outsiders.
-* The naming convention for a capabiliy is: <noun + verb>.
-    * Every capability can be preceded by: 'a grid operator can' <noun+verb>.
+
+* The naming convention for a capabiliy is: < noun + verb >.
+    * Every capability can be preceded by: 'a grid operator can' < noun + verb >.
     * The noun in the name of the capability is mostly the business object managed by that capability.
     * The description of a capability starts with: 'the ability to …
-* The naming convention of a business object is: <noun>
+* The naming convention of a business object is: < noun >
     * The name is defined in singular.
     * In defining business objects the concepts and definitions of laws and regulations are leading.
     * Search terms are not synonyms or approved aliases but only a tool for people to find the right business object.
-* The naming convention for a value stream is: <verb + noun>
+* The naming convention for a value stream is: < verb + noun >
 
-## Model explenation / design choices
+
+## Model explanation / design choices
 
 The model is created with some design choices which are explained below. Every adjustment and/or expansion should conform to these choices or explain why these weren't applicable (with a valuecase). 
+
 * Granularity: The model has three abstraction layers and maximal 7 objects per layer.
     * Three abstraction layers are defined to support strategic, tactical and operational management of a grid operator.
     * A capability on levels 3, 2 or 1 is only defined if the lifecycle of such a capability differs.
@@ -71,10 +77,12 @@ The model is created with some design choices which are explained below. Every a
 * The capability domain ‘Develop and maintain digital technology’ is based on the IT4IT model of the open group.
 * The main capability E.2.2 ‘Manage data’ is aimed at business data. This is data created and maintained by the core and enterprise capabilities that can be combined.  
 
+
 ## Consistency rules
 
 NBility model adheres to Consistency rules and guidelines. 
 The metamodel is the basis for formulating consistency rules and guidelines. The metamodel already contains a set of rules in the form of multiplicities that are not zero to many. These rules can be uses as a checklist. The rules (R) are rigid, and the guidelines (G) are recommendations. Rules refer to an element that is composed of or contextualizes other elements as their abstraction. The number of times an element is (recursively) composed or contextualized by another element determines its level of abstraction. 
+
 * Rules
     * R1 Each business function is composed in at most one business function
     * R2 Each business object is contextualized by at most one business object
@@ -92,6 +100,7 @@ The metamodel is the basis for formulating consistency rules and guidelines. The
     * G2 Each business object is controlled and/or modified by exactly one business Function
  
 The rationales for these rules and guidelines are as follows.
+
 * R1-3 Business architecture models may contain more elements than humans can process easily. Abstraction mechanisms such as composition and contextualization allow the elements to be grouped into bite-sized chunks. These rules ensure the formation of a nested hierarchy, required by rules 4 to 7.
 * R4-7 The MECE principle applies at each level of abstraction. This principle states that items in a group must be mutually exclusive (ME) and collectively exhaustive (CE), meaning that they may not have gaps or overlaps. The collection of business functions at a particular level of abstraction conforms to this principle if each atomic business activity in an organization is associated with exactly one business function. For business objects, this implies that each thing in an organization is associated with exactly one business object. For example, business objects Customer and Corporate Customer are not mutually exclusive, because a particular corporate customer is associated with both business objects. If these are the only business objects used to describe an energy system operator, they also have gaps, because the energy grid is not associated with either.
 * R8 If a business function is related to a business object, then the abstraction of the function is by definition related to the abstraction of the object. This rule implicitly restricts the relationships between business functions and business objects to matching levels of abstraction. This increases consistency, allowing stakeholders to easily switch perspectives.
